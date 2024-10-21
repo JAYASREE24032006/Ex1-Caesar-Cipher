@@ -1,28 +1,28 @@
 
-# EX1 - Caeser Cipher
+# EX1 - CAESAR CIPHER
 
 
-## AIM:
+## AIM :
 
 To encrypt and decrypt the given message by using Ceaser Cipher encryption algorithm.
 
 
-## DESIGN STEPS:
+## DESIGN STEPS :
 
 
-### Step 1:
+### STEP 1 :
 
 
 Design of Caeser Cipher algorithnm 
 
 
-### Step 2:
+### STEP 2 :
 
 Implementation using C or pyhton code
 
 
 
-### Step 3:
+### STEP 3 :
 
 
 1.	In Ceaser Cipher each letter in the plaintext is replaced by a letter some fixed number of positions down the alphabet.
@@ -36,7 +36,7 @@ Implementation using C or pyhton code
 
 
 
-## PROGRAM:
+## PROGRAM :
 ```
 #include <stdio.h>
 #include <stdlib.h>
@@ -77,13 +77,13 @@ int main()
 
 
 
-## OUTPUT:
+## OUTPUT :
 
 ![Screenshot 2024-09-02 221322](https://github.com/user-attachments/assets/75d79761-d0f6-49fc-a98f-b7bb97b18ee9)
 
 
 
 
-## RESULT:
-The program is executed successfully
+## RESULT :
+The program is To encrypt and decrypt the given message by using Ceaser Cipher encryption algorithm is executed successfully.
 
