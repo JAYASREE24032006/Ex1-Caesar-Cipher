@@ -6,32 +6,24 @@
 
 To encrypt and decrypt the given message by using Ceaser Cipher encryption algorithm.
 
+## THEORY :
+The Hill cipher is a polygraphic substitution cipher that encrypts blocks of plaintext using matrix multiplication. By converting letters into numerical vectors and applying an invertible key matrix, it produces ciphertext. While more secure than simple ciphers, it is vulnerable to known-plaintext attacks and requires careful key management.
 
-## DESIGN STEPS :
+## ALGORITHM :
 
 
 ### STEP 1 :
-
-
-Design of Caeser Cipher algorithnm 
-
-
+In Ceaser Cipher each letter in the plaintext is replaced by a letter some fixed number of positions down the alphabet.
 ### STEP 2 :
-
-Implementation using C or pyhton code
-
-
-
+For example, with a left shift of 3, D would be replaced by A, E would become B, and so on.
 ### STEP 3 :
-
-
-1.	In Ceaser Cipher each letter in the plaintext is replaced by a letter some fixed number of positions down the alphabet.
-2.	For example, with a left shift of 3, D would be replaced by A, E would become B, and so on.
-3.	The encryption can also be represented using modular arithmetic by first transforming the letters into numbers, according to the   
-    scheme, A = 0, B = 1, Z = 25.
-4.	Encryption of a letter x by a shift n can be described mathematically as,
+The encryption can also be represented using modular arithmetic by first transforming the letters into numbers, according to the   
+scheme, A = 0, B = 1, Z = 25.
+### STEP 4 :
+Encryption of a letter x by a shift n can be described mathematically as,
                        En(x) = (x + n) mod26
-5.	Decryption is performed similarly,
+### STEP 5 :
+Decryption is performed similarly,
                        Dn (x)=(x - n) mod26
 
 
